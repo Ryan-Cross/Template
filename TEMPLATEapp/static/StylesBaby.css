@@ -1,0 +1,88 @@
+/* #region Default Mobile-portrait view no breakpoint   based loosely on iphoneX (375x812) */
+
+
+     /*                               contents from here                                   */
+
+    
+    /* #endregion */
+    
+h1{
+    color: red;
+}
+
+#theLogoDiv{
+    background-color: blue;
+    height: 400px;
+}
+    
+    
+    /*                               responsive adapt from here                                   */
+    
+    
+    /* #region responsive breakpoint for PORTRAIT M-O-B-I-L-E (max-width:450px) and (max-height:570px)   this is 5s */
+    @media screen and (orientation:landscape) and (min-height:451px) and (max-width:1380px){
+        h1{
+            color: green; 
+        }  
+    }
+    /* #endregion */
+    
+    
+    /* #region responsive breakpoint for PORTRAIT M-O-B-I-L-E (max-width:450px) and  (min-height:571px) and (max-height:750px)   this is iphone 6/7/8*   6/7/8+  */
+   
+    
+    /* #endregion */
+    
+    
+    /* #region responsive breakpoint for PORTRAIT M-O-B-I-L-E (max-width:450px) and  (min-height:751px) this is iphoneX, pixel phones etc */
+    
+    
+    /* #endregion */
+    
+    
+    
+    
+    
+    /* #region responsive breakpoint for LANDSCAPE M-O-B-I-L-E (orientation:landscape) and (max-height:420px) and (max-width:600px)iphone5s landscaped */
+    
+    
+    /* #endregion */
+    
+    
+    /* #region responsive breakpoint for LANDSCAPE M-O-B-I-L-E (orientation:landscape) and (max-height:420px) and (min-width:600px) and (max-width:700px) iphone 6/7/8 6/7/8+ */
+    
+    
+    /* #endregion */
+    
+    
+    /* #region responsive breakpoint for LANDSCAPE M-O-B-I-L-E (orientation:landscape) and (max-height:420px) and (min-width:750px) iphoneX, pixelphone landscaped */
+   
+    
+    /* #endregion */
+    
+    
+    
+    
+    
+    /* #region responsive breakpoint for PORTRAIT T-A-B-L-E-T (orientation:portrait) and (min-width:451px) and (max-width:1380px)  this is ipad */
+    
+    
+    
+    /* #endregion */
+    
+    
+    /* #region responsive breakpoint for LANDSCAPE T-A-B-L-E-T (orientation:landscape) and (min-height:451px) and (max-width:1380px)  this is ipad */
+    
+    
+    
+    
+    /* #endregion */
+    
+    
+    /* #region responsive breakpoint for  C-O-M-P-U-T-E-R-S (min-width: 1381px)*/
+   
+    
+    
+    /* #endregion */
+    
+    
